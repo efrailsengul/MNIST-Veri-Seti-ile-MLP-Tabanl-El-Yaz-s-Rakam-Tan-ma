@@ -1,0 +1,19 @@
+# Python önbellekleri
+__pycache__/
+*.pyc
+
+# Sanal ortamlar
+.venv/
+venv/
+env/
+
+# MNIST veri seti (Boyutu gereksiz büyütmemesi için)
+data/
+
+# Model ağırlığı (İsteğe bağlı: eğer boyutu küçükse repoda kalabilir, 
+# ancak yeniden eğitilebilir olduğu için genellikle gitignore'a eklenir)
+# mnist_mlp_weights.pth
+
+# VS Code ayarları
+.vscode/
+.DS_Store
